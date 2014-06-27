@@ -1,0 +1,179 @@
+/**************** Mobile Browsing **************/
+
+
+/****** Generic ******/
+
+/* Smaller than standard 960 (devices and browsers) */
+@media handheld and (max-width: 959px) {
+    body {max-width: 958px !important;}
+    .afform {width: 100% !important;}
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media handheld and (min-width: 768px) and (max-width: 959px) {
+    body {max-width: 958px !important;}
+    .afform {width: 100% !important;}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media handheld and (max-width: 767px) {
+    body {max-width: 765px !important;}
+    .afform {width: 100% !important;}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media handheld and (min-width: 480px) and (max-width: 767px) {
+    body {max-width: 765px !important;}
+    .afform {width: 100% !important;}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media handheld and (max-width: 479px) {
+    body {max-width: 478px !important;}
+    .afform {width: 100% !important;}
+}
+
+
+/* Override field widths to make maximum use of space */	
+.bws.colspan {
+	margin: auto!important;
+}
+
+.bws.colspan, .bws.colspan.af-form-text, .bws.colspan.clear, .bws.colspan.af-form-date  {
+	width: 100%!important;
+}
+
+/* Hide unnecessary toolbars, footers etc */
+#toolbar, #header-bottom, .progressbartoptable, #af_header, #demo_footer, .outertoolbarmaincontainer, .sectionfloat {
+	display: none;
+}
+
+/* Style buttons */
+#formcontainer .genericsubmit, .all-buttons-generic input[type="submit"], .genericsubmit, .all-buttons-generic button, .renderformbuttons {
+	-webkit-border-radius: 4px!important;
+	-moz-border-radius: 4px!important;
+	border-radius: 4px!important;
+	background:#E3EAF9!important;
+	color:#606060!important;
+	border:2px solid #214063!important;
+	font-size:1.2em!important;
+	margin:0.2em !important;
+	font-weight: bold!important;
+	text-transform: uppercase!important;
+	width: auto!important;
+}
+
+/* adjust section name render */
+#content .sectionnamerender {
+	float:right!important;
+	color: black!important;
+	font-size: 1.4em!important;
+	font-style: italic!important;
+	margin: 0.5em 0!important;
+}
+
+/* Help text and warning messages changes (makes the help text display the whole time, hide the icon)  */
+.helptext {
+	background: #F0F0F0!important;
+	-webkit-border-radius: 5px!important;
+	-moz-border-radius: 5px!important;
+	border-radius: 5px!important;
+	color: black!important;
+	width: 95%!important;
+	text-align: left!important;
+	padding: 0.4em 0 0.4em 0.4em!important;
+	margin-top: 8px!important;
+	display: block!important;
+}
+
+.bws.colspan img {
+	display: none;
+}
+
+/* Improve the calendar */
+.cal a:link, .caledge span {
+	font-size: 1.7em;
+}
+
+.caldate {
+	padding: 0.6em!important;
+}
+
+.caledge, .caledge a, .caledge a:visited {
+	background-color: #808080;
+}
+
+/* Fixes for forms with sidenav */
+div.renderbuttonstablesidenav {
+	float: left;
+	padding: 0;
+	width: auto;
+}
+	
+/* Misc */
+.renderbuttonstable, .renderbuttonstablesidenav {
+	border: none;
+}
+
+.bws.checkbox, .bws.radio {
+    color: #666666;
+    font-size: 1.2em;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+ul {
+	padding: 0.4em 0 0.4em 0.8em!important;
+}
+
+.subform legend {
+    border-width: 0;
+    color: black;
+    font-size: 1.2em;
+    font-style: italic;
+    margin: 0.5em;
+    padding: 0;
+	font-weight: bold;
+}
+
+input:focus, select:focus, textarea:focus {
+	background-color: #E8ECF4!important;
+}
+
+/*------ Standard Branding only ------*/
+
+/* Adjust input boxes and labels */
+.renderbuttonstable .aftextinput, .renderbuttonstable .aftextarea, .renderbuttonstable .afselectbox, .renderbuttonstable select, .aftextinput, .aftextarea, .afselectbox , select, .dateyeartextbox{
+    border: 2px solid #CCCCCC!important;
+	font-size: 14px!important;
+    padding: 0.25em 0.1em 0.1em!important;
+	color: black!important;
+}
+
+.nondatael {
+    color: #666666;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#content .fieldlabel, .fieldlabel {
+    color: black!important;
+    font-size: 1.2em!important;
+    font-weight: bold!important;
+}
+
+.responsetd P, li {
+	color: #666666;
+}
+
+h1, h2, h3, h4 {
+	color: black;
+}
+
+.sectionlinktitle, h2, .feedpageouter .feedheader {
+	border-bottom: 1px solid black;
+}
+
+.datecombo {
+    padding: 0.45em 1em;
+}
