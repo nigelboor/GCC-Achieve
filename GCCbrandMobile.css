@@ -50,40 +50,42 @@
 
 /* Style buttons */
 #formcontainer .genericsubmit, .all-buttons-generic input[type="submit"], .genericsubmit, .all-buttons-generic button, .renderformbuttons {
+	margin:0.2em !important;
+	width: auto!important;
+	border:2px solid #214063!important;
+
 	-webkit-border-radius: 4px!important;
 	-moz-border-radius: 4px!important;
 	border-radius: 4px!important;
 	background:#E3EAF9!important;
 	color:#606060!important;
-	border:2px solid #214063!important;
-	font-size:1.2em!important;
-	margin:0.2em !important;
-	font-weight: bold!important;
 	text-transform: uppercase!important;
-	width: auto!important;
+	font-weight: bold!important;
+	font-size:1.2em!important;
 }
 
 /* adjust section name render */
 #content .sectionnamerender {
 	float:right!important;
-	color: black!important;
-	font-size: 1.4em!important;
-	font-style: italic!important;
 	margin: 0.5em 0!important;
+	color: black!important;
+	font-style: italic!important;
+	font-size: 1.4em!important;
 }
 
 /* Help text and warning messages changes (makes the help text display the whole time, hide the icon)  */
 .helptext {
-	background: #F0F0F0!important;
+	display: block!important;
+	margin-top: 8px!important;
+	padding: 0.4em 0 0.4em 0.4em!important;
+	width: 95%!important;
 	-webkit-border-radius: 5px!important;
 	-moz-border-radius: 5px!important;
 	border-radius: 5px!important;
+
+	background: #F0F0F0!important;
 	color: black!important;
-	width: 95%!important;
 	text-align: left!important;
-	padding: 0.4em 0 0.4em 0.4em!important;
-	margin-top: 8px!important;
-	display: block!important;
 }
 
 .bws.colspan img {
@@ -117,9 +119,9 @@ div.renderbuttonstablesidenav {
 
 .bws.checkbox, .bws.radio {
     color: #666666;
-    font-size: 1.2em;
-    font-weight: bold;
     vertical-align: middle;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 ul {
@@ -127,13 +129,14 @@ ul {
 }
 
 .subform legend {
-    border-width: 0;
-    color: black;
-    font-size: 1.2em;
-    font-style: italic;
     margin: 0.5em;
     padding: 0;
+
+    border-width: 0;
+    color: black;
 	font-weight: bold;
+    font-style: italic;
+    font-size: 1.2em;
 }
 
 input:focus, select:focus, textarea:focus {
@@ -144,22 +147,23 @@ input:focus, select:focus, textarea:focus {
 
 /* Adjust input boxes and labels */
 .renderbuttonstable .aftextinput, .renderbuttonstable .aftextarea, .renderbuttonstable .afselectbox, .renderbuttonstable select, .aftextinput, .aftextarea, .afselectbox , select, .dateyeartextbox{
-    border: 2px solid #CCCCCC!important;
-	font-size: 14px!important;
     padding: 0.25em 0.1em 0.1em!important;
+
+    border: 2px solid #CCCCCC!important;
 	color: black!important;
+	font-size: 14px!important;
 }
 
 .nondatael {
     color: #666666;
-    font-size: 1.2em;
     font-weight: bold;
+    font-size: 1.2em;
 }
 
 #content .fieldlabel, .fieldlabel {
     color: black!important;
-    font-size: 1.2em!important;
     font-weight: bold!important;
+    font-size: 1.2em!important;
 }
 
 .responsetd P, li {
